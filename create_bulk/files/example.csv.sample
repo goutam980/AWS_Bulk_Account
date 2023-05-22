@@ -1,0 +1,3 @@
+Name,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY
+TestAccount1,access_key_id_1,access_secret_key_1
+TestAccount2,access_key_id_1,access_secret_key_2

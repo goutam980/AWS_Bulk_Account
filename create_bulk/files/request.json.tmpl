@@ -1,0 +1,39 @@
+{
+  "sources":
+    [
+     {
+        "name": "{source_name}",
+        "app_creation_workflow": "account_authorization",
+        "source_type_name": "amazon"
+      },
+      {
+        "name": "aapppp121212",
+        "app_creation_workflow": "account_authorization",
+        "source_type_name": "amazon"
+      }
+    ],
+  "authentications":
+    [
+      {
+        "authtype": "access_key_secret_key",
+        "username": "{access_key_id}",
+        "password": "{access_secret_key_id}",
+        "resource_name": "{source_name}",
+        "resource_type": "source"
+      }
+    ],
+  "applications":[
+    {     
+        "application_type_id": 2,
+        "source_name": "{source_name}"
+    },
+    {     
+        "application_type_id": 5,
+        "source_name": "{source_name}"
+    },
+    {     
+        "application_type_id": 8,
+        "source_name": "{source_name}"
+    }
+  ]
+}
